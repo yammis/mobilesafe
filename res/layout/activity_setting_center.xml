@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itheima="http://schemas.android.com/apk/res/cn.itcast.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="#ff6cbd45" >
+
+        <TextView
+            android:id="@+id/tv_main_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="设 置 中 心"
+            android:textColor="#ffffff"
+            android:textSize="18.0dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <cn.itcast.mobilesafe.ui.SettingView
+                android:id="@+id/sv_setting_update"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                itheima:content="自动更新已经开启"
+                itheima:title="自动更新设置" >
+            </cn.itcast.mobilesafe.ui.SettingView>
+
+            <cn.itcast.mobilesafe.ui.SettingView
+                android:id="@+id/sv_setting_showaddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                itheima:content="号码归属地查询没有开启"
+                itheima:title="号码归属地设置" >
+            </cn.itcast.mobilesafe.ui.SettingView>
+
+            <RelativeLayout
+                android:id="@+id/rl_setting_showaddress_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="58dip"
+                android:background="@drawable/main_item_selector"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/tv_setting_showaddress_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="3dip"
+                    android:text="归属地提示框风格"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/tv_setting_showaddress_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/tv_setting_showaddress_title"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginTop="5dip"
+                    android:text="半透明" />
+
+                <ImageView
+                    android:layout_width="25dip"
+                    android:layout_height="25dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/jiantou1" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/listview_devider" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_setting_showaddress_location"
+                android:layout_width="fill_parent"
+                android:layout_height="58dip"
+                android:background="@drawable/main_item_selector"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/tv_setting_showaddress_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="3dip"
+                    android:text="归属地提示框位置"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/tv_setting_showaddress_title1"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginTop="5dip"
+                    android:text="设置归属地提示框的位置" />
+
+                <ImageView
+                    android:layout_width="25dip"
+                    android:layout_height="25dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/jiantou1" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/listview_devider" />
+            </RelativeLayout>
+
+            <cn.itcast.mobilesafe.ui.SettingView
+                android:id="@+id/sv_setting_call_sms_safe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                itheima:content="黑名单拦截服务没有开启"
+                itheima:title="黑名单拦截设置" >
+            </cn.itcast.mobilesafe.ui.SettingView>
+
+            <cn.itcast.mobilesafe.ui.SettingView
+                android:id="@+id/sv_setting_app_lock"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                itheima:content="程序锁服务没有开启"
+                itheima:title="程序锁设置" >
+            </cn.itcast.mobilesafe.ui.SettingView>
+
+            <cn.itcast.mobilesafe.ui.SettingView
+                android:id="@+id/sv_setting_app_lock222"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                itheima:content="程序锁服务没有开启222"
+                itheima:title="程序锁设置222" >
+            </cn.itcast.mobilesafe.ui.SettingView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

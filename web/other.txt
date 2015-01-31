@@ -1,0 +1,62 @@
+## 关闭  adb服务
+adb kill-server
+
+## 启动adb服务
+adb start-server
+adb logcat
+
+## 从指定 应用的目录下面 把文件导出到本地系统
+adb -s devices_name pull   /data/data/..file  c:\
+
+## 把本地系统文件放入到指定 设备的 应用目录下
+adb push D:\file.txt  /system/temp/
+
+## 给指定 设备  安装 pak文件
+adb -s devices_name  install    apk_absulate_path
+
+## 进入指定 设备的shell模式
+adb -s devices_name   shell
+
+## 列出  文件 的详细信息
+ls -l 
+
+## 打开 数据库
+sqlite3  ***.db  
+
+## 方法 一
+hierarchyviewer.bat文件查看资源 
+## 方法 二  反编译(过程中有些异常，混淆打包)
+apktool d **.apk
+D:\Programfiles\android-sdkr16\tools\fby\apktool
+
+
+inbox收件箱  sent发件箱 draft 草稿箱
+
+
+##进程命令
+proc
+## 用户的 uid列表
+/proc/uid_stat  
+/data/data   ls -l
+
+
+联网防火墙
+
+linux系统 iptable 二进制可执行文件   root权限 
+4.0内置 
+
+
+## 系统重新 挂载
+adb  -s  emulator-**  remount
+pm disable/endable qn 包名
+
+
+
+adb logcat -radio
+adb shell
+locat 获取所有 的日志
+locat -b radio   电话相关任务
+
+##无界面 安装 
+pm install  -r  /sdcard/i18.apk
+am start -n  activityname 启动程序 

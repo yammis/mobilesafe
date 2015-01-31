@@ -1,0 +1,313 @@
+cn.itcast.mobilesafe.AntiVirusActivity
+cn.itcast.mobilesafe.AppManagerActivity
+cn.itcast.mobilesafe.AppManagerActivity2
+cn.itcast.mobilesafe.AppManagerActivity2: void onClick(android.view.View)
+cn.itcast.mobilesafe.AtoolsActivity
+cn.itcast.mobilesafe.AtoolsActivity: void onClick(android.view.View)
+cn.itcast.mobilesafe.BaseSetupActivity
+cn.itcast.mobilesafe.BaseSetupActivity: void next(android.view.View)
+cn.itcast.mobilesafe.BaseSetupActivity: void pre(android.view.View)
+cn.itcast.mobilesafe.CallSmsSafeActivity
+cn.itcast.mobilesafe.CallSmsSafeActivity: void jump(android.view.View)
+cn.itcast.mobilesafe.CallSmsSafeActivity: void onClick(android.view.View)
+cn.itcast.mobilesafe.CallSmsSafeActivityCopy02
+cn.itcast.mobilesafe.CallSmsSafeActivityCopy1
+cn.itcast.mobilesafe.CleanCacheActivity
+cn.itcast.mobilesafe.CleanSDActivity
+cn.itcast.mobilesafe.CleanStartupActivity
+cn.itcast.mobilesafe.CommnumActivity
+cn.itcast.mobilesafe.DragViewActivity
+cn.itcast.mobilesafe.EnterPasswordActivity
+cn.itcast.mobilesafe.EnterPasswordActivity: void enter(android.view.View)
+cn.itcast.mobilesafe.HomeActivity
+cn.itcast.mobilesafe.HomeActivity: void onClick(android.view.View)
+cn.itcast.mobilesafe.LostFindActivity
+cn.itcast.mobilesafe.LostFindActivity: void reEntrySetup(android.view.View)
+cn.itcast.mobilesafe.MyApplication
+cn.itcast.mobilesafe.NumberQueryActivity
+cn.itcast.mobilesafe.NumberQueryActivity: void query(android.view.View)
+cn.itcast.mobilesafe.R$anim: int alpha_in
+cn.itcast.mobilesafe.R$anim: int alpha_out
+cn.itcast.mobilesafe.R$anim: int cycle_7
+cn.itcast.mobilesafe.R$anim: int shake
+cn.itcast.mobilesafe.R$anim: int tran_shownext_in
+cn.itcast.mobilesafe.R$anim: int tran_shownext_out
+cn.itcast.mobilesafe.R$attr: int content
+cn.itcast.mobilesafe.R$attr: int title
+cn.itcast.mobilesafe.R$color: int gray
+cn.itcast.mobilesafe.R$color: int white
+cn.itcast.mobilesafe.R$drawable: int app
+cn.itcast.mobilesafe.R$drawable: int appmgr_system_app_uninstall_normal
+cn.itcast.mobilesafe.R$drawable: int appmgr_system_app_uninstall_pressed
+cn.itcast.mobilesafe.R$drawable: int atools
+cn.itcast.mobilesafe.R$drawable: int b
+cn.itcast.mobilesafe.R$drawable: int bind
+cn.itcast.mobilesafe.R$drawable: int button_bg_green
+cn.itcast.mobilesafe.R$drawable: int button_bg_green_on
+cn.itcast.mobilesafe.R$drawable: int button_bg_selector
+cn.itcast.mobilesafe.R$drawable: int call_locate_blue
+cn.itcast.mobilesafe.R$drawable: int call_locate_gray
+cn.itcast.mobilesafe.R$drawable: int call_locate_green
+cn.itcast.mobilesafe.R$drawable: int call_locate_orange
+cn.itcast.mobilesafe.R$drawable: int call_locate_white
+cn.itcast.mobilesafe.R$drawable: int callmsgsafe
+cn.itcast.mobilesafe.R$drawable: int checkbox_button
+cn.itcast.mobilesafe.R$drawable: int edit
+cn.itcast.mobilesafe.R$drawable: int ic_launcher
+cn.itcast.mobilesafe.R$drawable: int ic_scanner_malware
+cn.itcast.mobilesafe.R$drawable: int img1
+cn.itcast.mobilesafe.R$drawable: int img2
+cn.itcast.mobilesafe.R$drawable: int img3
+cn.itcast.mobilesafe.R$drawable: int jiantou1
+cn.itcast.mobilesafe.R$drawable: int list_icon_risk
+cn.itcast.mobilesafe.R$drawable: int list_icon_security
+cn.itcast.mobilesafe.R$drawable: int list_item_delete_selector
+cn.itcast.mobilesafe.R$drawable: int listview_devider
+cn.itcast.mobilesafe.R$drawable: int local_popup_bg
+cn.itcast.mobilesafe.R$drawable: int lock
+cn.itcast.mobilesafe.R$drawable: int logo2
+cn.itcast.mobilesafe.R$drawable: int main_item_normal
+cn.itcast.mobilesafe.R$drawable: int main_item_selector
+cn.itcast.mobilesafe.R$drawable: int marker_add_checked
+cn.itcast.mobilesafe.R$drawable: int marker_add_unchecked
+cn.itcast.mobilesafe.R$drawable: int netmanager
+cn.itcast.mobilesafe.R$drawable: int next
+cn.itcast.mobilesafe.R$drawable: int notification
+cn.itcast.mobilesafe.R$drawable: int opt_item_pressed
+cn.itcast.mobilesafe.R$drawable: int opt_item_selector
+cn.itcast.mobilesafe.R$drawable: int phone
+cn.itcast.mobilesafe.R$drawable: int previous
+cn.itcast.mobilesafe.R$drawable: int progress_horizontal
+cn.itcast.mobilesafe.R$drawable: int rt_normal
+cn.itcast.mobilesafe.R$drawable: int rt_pressed
+cn.itcast.mobilesafe.R$drawable: int rt_selector
+cn.itcast.mobilesafe.R$drawable: int safe
+cn.itcast.mobilesafe.R$drawable: int scan
+cn.itcast.mobilesafe.R$drawable: int security_progress
+cn.itcast.mobilesafe.R$drawable: int settings
+cn.itcast.mobilesafe.R$drawable: int setup1
+cn.itcast.mobilesafe.R$drawable: int sysoptimize
+cn.itcast.mobilesafe.R$drawable: int tab1
+cn.itcast.mobilesafe.R$drawable: int tab2
+cn.itcast.mobilesafe.R$drawable: int tab3
+cn.itcast.mobilesafe.R$drawable: int taskmanager
+cn.itcast.mobilesafe.R$drawable: int toast_address_normal
+cn.itcast.mobilesafe.R$drawable: int trojan
+cn.itcast.mobilesafe.R$drawable: int unlock
+cn.itcast.mobilesafe.R$drawable: int widget_bg_portrait
+cn.itcast.mobilesafe.R$drawable: int widget_bg_portrait_child
+cn.itcast.mobilesafe.R$drawable: int widget_bg_portrait_child_divider
+cn.itcast.mobilesafe.R$id: int bt_add_blacknumber_cancle
+cn.itcast.mobilesafe.R$id: int bt_add_blacknumber_ok
+cn.itcast.mobilesafe.R$id: int bt_edit_blacknumber_cancle
+cn.itcast.mobilesafe.R$id: int bt_edit_blacknumber_ok
+cn.itcast.mobilesafe.R$id: int bt_first_cancle
+cn.itcast.mobilesafe.R$id: int bt_first_ok
+cn.itcast.mobilesafe.R$id: int bt_normal_cancle
+cn.itcast.mobilesafe.R$id: int bt_normal_ok
+cn.itcast.mobilesafe.R$id: int btn_clear
+cn.itcast.mobilesafe.R$id: int cb_add_blacknumber_phone
+cn.itcast.mobilesafe.R$id: int cb_add_blacknumber_sms
+cn.itcast.mobilesafe.R$id: int cb_edit_blacknumber_phone
+cn.itcast.mobilesafe.R$id: int cb_edit_blacknumber_sms
+cn.itcast.mobilesafe.R$id: int cb_setting_view_status
+cn.itcast.mobilesafe.R$id: int cb_setup4_status
+cn.itcast.mobilesafe.R$id: int cb_task_item_status
+cn.itcast.mobilesafe.R$id: int content
+cn.itcast.mobilesafe.R$id: int elv_commonnum
+cn.itcast.mobilesafe.R$id: int et_add_blacknumber_number
+cn.itcast.mobilesafe.R$id: int et_call_sms_pagenumber
+cn.itcast.mobilesafe.R$id: int et_edit_blacknumber_number
+cn.itcast.mobilesafe.R$id: int et_enterpwd
+cn.itcast.mobilesafe.R$id: int et_first_pwd
+cn.itcast.mobilesafe.R$id: int et_first_pwd_confirm
+cn.itcast.mobilesafe.R$id: int et_normal_pwd
+cn.itcast.mobilesafe.R$id: int et_number_query
+cn.itcast.mobilesafe.R$id: int et_setup3_number
+cn.itcast.mobilesafe.R$id: int gv_main
+cn.itcast.mobilesafe.R$id: int handle
+cn.itcast.mobilesafe.R$id: int item_add_to_lock
+cn.itcast.mobilesafe.R$id: int item_remove_from_lock
+cn.itcast.mobilesafe.R$id: int iv_app_item_icon
+cn.itcast.mobilesafe.R$id: int iv_app_item_lock_status
+cn.itcast.mobilesafe.R$id: int iv_cache_item_delete
+cn.itcast.mobilesafe.R$id: int iv_cache_item_icon
+cn.itcast.mobilesafe.R$id: int iv_call_sms_item_delete
+cn.itcast.mobilesafe.R$id: int iv_call_sms_item_edit
+cn.itcast.mobilesafe.R$id: int iv_call_sms_safe_icon
+cn.itcast.mobilesafe.R$id: int iv_drag_view
+cn.itcast.mobilesafe.R$id: int iv_enterpwd_icon
+cn.itcast.mobilesafe.R$id: int iv_icon
+cn.itcast.mobilesafe.R$id: int iv_item_main_icon
+cn.itcast.mobilesafe.R$id: int iv_lostfind_status
+cn.itcast.mobilesafe.R$id: int iv_main_icon
+cn.itcast.mobilesafe.R$id: int iv_opt_item
+cn.itcast.mobilesafe.R$id: int iv_scan
+cn.itcast.mobilesafe.R$id: int iv_setup2_status
+cn.itcast.mobilesafe.R$id: int iv_splash_icon
+cn.itcast.mobilesafe.R$id: int iv_status
+cn.itcast.mobilesafe.R$id: int iv_task_item_icon
+cn.itcast.mobilesafe.R$id: int iv_toast
+cn.itcast.mobilesafe.R$id: int ll_atools_commonnumquery
+cn.itcast.mobilesafe.R$id: int ll_atools_numberquery
+cn.itcast.mobilesafe.R$id: int ll_atools_sms_backup
+cn.itcast.mobilesafe.R$id: int ll_atools_sms_restore
+cn.itcast.mobilesafe.R$id: int ll_clean_cache_container
+cn.itcast.mobilesafe.R$id: int ll_loading
+cn.itcast.mobilesafe.R$id: int ll_scan_status
+cn.itcast.mobilesafe.R$id: int ll_share
+cn.itcast.mobilesafe.R$id: int ll_start
+cn.itcast.mobilesafe.R$id: int ll_uninstall
+cn.itcast.mobilesafe.R$id: int lv_appmanger
+cn.itcast.mobilesafe.R$id: int lv_bootmanger
+cn.itcast.mobilesafe.R$id: int lv_call_sms_safe
+cn.itcast.mobilesafe.R$id: int lv_select_contact
+cn.itcast.mobilesafe.R$id: int lv_task_manager
+cn.itcast.mobilesafe.R$id: int pb_clean_cache
+cn.itcast.mobilesafe.R$id: int process_count
+cn.itcast.mobilesafe.R$id: int process_memory
+cn.itcast.mobilesafe.R$id: int progressBar1
+cn.itcast.mobilesafe.R$id: int rl_setting_showaddress_bg
+cn.itcast.mobilesafe.R$id: int rl_setting_showaddress_location
+cn.itcast.mobilesafe.R$id: int rl_splash_main
+cn.itcast.mobilesafe.R$id: int sd
+cn.itcast.mobilesafe.R$id: int sv_setting_app_lock
+cn.itcast.mobilesafe.R$id: int sv_setting_app_lock222
+cn.itcast.mobilesafe.R$id: int sv_setting_call_sms_safe
+cn.itcast.mobilesafe.R$id: int sv_setting_showaddress
+cn.itcast.mobilesafe.R$id: int sv_setting_update
+cn.itcast.mobilesafe.R$id: int tv_app_item_location
+cn.itcast.mobilesafe.R$id: int tv_app_item_name
+cn.itcast.mobilesafe.R$id: int tv_app_item_version
+cn.itcast.mobilesafe.R$id: int tv_app_manager_status
+cn.itcast.mobilesafe.R$id: int tv_avail_rom
+cn.itcast.mobilesafe.R$id: int tv_avail_sd
+cn.itcast.mobilesafe.R$id: int tv_cache_item_name
+cn.itcast.mobilesafe.R$id: int tv_cache_item_size
+cn.itcast.mobilesafe.R$id: int tv_call_sms_item_mode
+cn.itcast.mobilesafe.R$id: int tv_call_sms_item_number
+cn.itcast.mobilesafe.R$id: int tv_call_sms_page_status
+cn.itcast.mobilesafe.R$id: int tv_clean_cache_status
+cn.itcast.mobilesafe.R$id: int tv_drag_info
+cn.itcast.mobilesafe.R$id: int tv_enterpwd_name
+cn.itcast.mobilesafe.R$id: int tv_item_contact_name
+cn.itcast.mobilesafe.R$id: int tv_item_contact_number
+cn.itcast.mobilesafe.R$id: int tv_item_main_name
+cn.itcast.mobilesafe.R$id: int tv_lostfind_number
+cn.itcast.mobilesafe.R$id: int tv_main_title
+cn.itcast.mobilesafe.R$id: int tv_name
+cn.itcast.mobilesafe.R$id: int tv_number_query_address
+cn.itcast.mobilesafe.R$id: int tv_opt_item
+cn.itcast.mobilesafe.R$id: int tv_scan_status
+cn.itcast.mobilesafe.R$id: int tv_setting_showaddress_bg
+cn.itcast.mobilesafe.R$id: int tv_setting_showaddress_title
+cn.itcast.mobilesafe.R$id: int tv_setting_showaddress_title1
+cn.itcast.mobilesafe.R$id: int tv_setting_view_content
+cn.itcast.mobilesafe.R$id: int tv_setting_view_title
+cn.itcast.mobilesafe.R$id: int tv_splash_appname
+cn.itcast.mobilesafe.R$id: int tv_splash_version
+cn.itcast.mobilesafe.R$id: int tv_task_count
+cn.itcast.mobilesafe.R$id: int tv_task_item_mem
+cn.itcast.mobilesafe.R$id: int tv_task_item_name
+cn.itcast.mobilesafe.R$id: int tv_task_mem
+cn.itcast.mobilesafe.R$id: int tv_toast
+cn.itcast.mobilesafe.R$id: int tv_toast_address
+cn.itcast.mobilesafe.R$layout: int activity_anti_virus
+cn.itcast.mobilesafe.R$layout: int activity_app_manager
+cn.itcast.mobilesafe.R$layout: int activity_app_manager2
+cn.itcast.mobilesafe.R$layout: int activity_atools
+cn.itcast.mobilesafe.R$layout: int activity_call_sms_safe
+cn.itcast.mobilesafe.R$layout: int activity_call_sms_safe_back
+cn.itcast.mobilesafe.R$layout: int activity_clean_cache
+cn.itcast.mobilesafe.R$layout: int activity_clean_startup
+cn.itcast.mobilesafe.R$layout: int activity_common_num
+cn.itcast.mobilesafe.R$layout: int activity_drag_view
+cn.itcast.mobilesafe.R$layout: int activity_enter_password
+cn.itcast.mobilesafe.R$layout: int activity_lost_find
+cn.itcast.mobilesafe.R$layout: int activity_main
+cn.itcast.mobilesafe.R$layout: int activity_number_query
+cn.itcast.mobilesafe.R$layout: int activity_select_contact
+cn.itcast.mobilesafe.R$layout: int activity_setting_center
+cn.itcast.mobilesafe.R$layout: int activity_setup1
+cn.itcast.mobilesafe.R$layout: int activity_setup2
+cn.itcast.mobilesafe.R$layout: int activity_setup3
+cn.itcast.mobilesafe.R$layout: int activity_setup4
+cn.itcast.mobilesafe.R$layout: int activity_splash
+cn.itcast.mobilesafe.R$layout: int activity_system_opt
+cn.itcast.mobilesafe.R$layout: int activity_task_manager
+cn.itcast.mobilesafe.R$layout: int activity_traffic_manager
+cn.itcast.mobilesafe.R$layout: int dialog_add_blacknumber
+cn.itcast.mobilesafe.R$layout: int dialog_edit_blacknumber
+cn.itcast.mobilesafe.R$layout: int dialog_first_entry
+cn.itcast.mobilesafe.R$layout: int dialog_normal_entry
+cn.itcast.mobilesafe.R$layout: int grid_item_main
+cn.itcast.mobilesafe.R$layout: int list_item_app_item
+cn.itcast.mobilesafe.R$layout: int list_item_cache_item
+cn.itcast.mobilesafe.R$layout: int list_item_call_sms
+cn.itcast.mobilesafe.R$layout: int list_item_contact
+cn.itcast.mobilesafe.R$layout: int list_item_task_item
+cn.itcast.mobilesafe.R$layout: int list_scan_item
+cn.itcast.mobilesafe.R$layout: int main
+cn.itcast.mobilesafe.R$layout: int my_toast
+cn.itcast.mobilesafe.R$layout: int popup_item
+cn.itcast.mobilesafe.R$layout: int process_widget
+cn.itcast.mobilesafe.R$layout: int system_opt_item
+cn.itcast.mobilesafe.R$layout: int toast_address
+cn.itcast.mobilesafe.R$layout: int ui_setting_view
+cn.itcast.mobilesafe.R$menu: int app_lock_menu
+cn.itcast.mobilesafe.R$raw: int ylzs
+cn.itcast.mobilesafe.R$string: int app_name
+cn.itcast.mobilesafe.R$string: int hello
+cn.itcast.mobilesafe.R$string: int serverurl
+cn.itcast.mobilesafe.R$string: int tips
+cn.itcast.mobilesafe.R$style: int Theme
+cn.itcast.mobilesafe.R$style: int Theme_Transparent
+cn.itcast.mobilesafe.R$style: int button_next_style
+cn.itcast.mobilesafe.R$style: int button_pre_style
+cn.itcast.mobilesafe.R$style: int image_off_style
+cn.itcast.mobilesafe.R$style: int image_on_style
+cn.itcast.mobilesafe.R$style: int image_star_style
+cn.itcast.mobilesafe.R$style: int progress_style
+cn.itcast.mobilesafe.R$style: int text_content_style
+cn.itcast.mobilesafe.R$style: int text_title_style
+cn.itcast.mobilesafe.R$styleable: int[] setting_view
+cn.itcast.mobilesafe.R$styleable: int setting_view_content
+cn.itcast.mobilesafe.R$styleable: int setting_view_title
+cn.itcast.mobilesafe.R$xml: int device_admin_sample
+cn.itcast.mobilesafe.R$xml: int example_appwidget_info
+cn.itcast.mobilesafe.SelectContactActivity
+cn.itcast.mobilesafe.SettingCenterActivity
+cn.itcast.mobilesafe.SettingCenterActivity: void onClick(android.view.View)
+cn.itcast.mobilesafe.Setup1Activity
+cn.itcast.mobilesafe.Setup2Activity
+cn.itcast.mobilesafe.Setup2Activity: void bind(android.view.View)
+cn.itcast.mobilesafe.Setup3Activity
+cn.itcast.mobilesafe.Setup3Activity: void selectContact(android.view.View)
+cn.itcast.mobilesafe.Setup4Activity
+cn.itcast.mobilesafe.Setup4Activity: void activeDeviceAdmin(android.view.View)
+cn.itcast.mobilesafe.SplashActivity
+cn.itcast.mobilesafe.SystemOptActivity
+cn.itcast.mobilesafe.TaskManagerActivity
+cn.itcast.mobilesafe.TaskManagerActivity: void killTask(android.view.View)
+cn.itcast.mobilesafe.TrafficManagerActivity
+cn.itcast.mobilesafe.engine.AppInfoProvider
+cn.itcast.mobilesafe.receiver.BootCompleteReceiver
+cn.itcast.mobilesafe.receiver.KillTaskRecevicer
+cn.itcast.mobilesafe.receiver.MyAdmin
+cn.itcast.mobilesafe.receiver.MyWidget
+cn.itcast.mobilesafe.receiver.OutCallReceiver
+cn.itcast.mobilesafe.receiver.SmsReceiver
+cn.itcast.mobilesafe.service.CallSmsFirewallService
+cn.itcast.mobilesafe.service.ShowAddressService
+cn.itcast.mobilesafe.service.UpdateWidgetService
+cn.itcast.mobilesafe.service.WatchDogService
+cn.itcast.mobilesafe.service.WatchDogService2
+cn.itcast.mobilesafe.ui.FocusedTextView
+cn.itcast.mobilesafe.ui.FocusedTextView: FocusedTextView(android.content.Context,android.util.AttributeSet,int)
+cn.itcast.mobilesafe.ui.FocusedTextView: FocusedTextView(android.content.Context,android.util.AttributeSet)
+cn.itcast.mobilesafe.ui.FocusedTextView: FocusedTextView(android.content.Context)
+cn.itcast.mobilesafe.ui.SettingView
+cn.itcast.mobilesafe.ui.SettingView: SettingView(android.content.Context)
+cn.itcast.mobilesafe.ui.SettingView: SettingView(android.content.Context,android.util.AttributeSet)
+cn.itcast.mobilesafe.ui.SettingView: void setChecked(boolean)
+cn.itcast.mobilesafe.ui.SettingView: void setContent(java.lang.String)

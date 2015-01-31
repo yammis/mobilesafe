@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SplashActivity!</string>
+    <string name="app_name">神马护卫</string>
+    <string name="tips">开启后<b>用户可以远程锁屏 <i>可以清除数据</i></b></string>
+
+</resources>
